@@ -67,6 +67,3 @@ git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 5. I’ll review and merge if all looks good
 
 ---
-
-Thanks for checking it out — if you want, I can also generate a “fancier” README with badges, screenshots, and more. Want me to whip that up?
-::contentReference[oaicite:0]{index=0}
