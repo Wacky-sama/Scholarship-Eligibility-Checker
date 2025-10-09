@@ -68,11 +68,5 @@ git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 
 ---
 
-## 📜 License
-
-Add your preferred license here (MIT, GPL, etc.).  
-
----
-
 Thanks for checking it out — if you want, I can also generate a “fancier” README with badges, screenshots, and more. Want me to whip that up?
 ::contentReference[oaicite:0]{index=0}
