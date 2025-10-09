@@ -15,12 +15,14 @@ A simple Windows Forms (VB.NET) app that determines a student’s letter grade a
 
 ## 🚀 How to Run
 
-1. Clone the repo:  
+1. Clone the repo:
+   ```bash
 git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
+```
 
-2. Open `Scholarship Eligibility Checker.sln` in Visual Studio (or your VB.NET IDE).
-3. Build and Run (F5 or Ctrl+F5).
-4. Enter values for:
+3. Open `Scholarship Eligibility Checker.sln` in Visual Studio (or your VB.NET IDE).
+4. Build and Run (F5 or Ctrl+F5).
+5. Enter values for:
 - GPA (decimal)
 - Income (numeric)
 - Community Hours (integer)
