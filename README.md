@@ -4,7 +4,7 @@ A simple Windows Forms (VB.NET) app that determines a student’s letter grade a
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `Scholarship Eligibility Checker.sln` — Solution file  
 - `Form1.vb` — Main form with logic for calculating grade & scholarship  
@@ -13,7 +13,7 @@ A simple Windows Forms (VB.NET) app that determines a student’s letter grade a
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 ```bash
@@ -32,7 +32,7 @@ git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 
 ---
 
-## ✅ Logic Rules (current version)
+## Logic Rules (current version)
 
 - **Letter Grades**  
 - ≥ 4.5 → A  
@@ -49,7 +49,7 @@ git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 
 ---
 
-## 🛠️ Possible Improvements / To-Do
+## Possible Improvements / To-Do
 
 - Add **input validation** (e.g. prevent negative numbers, non-numeric input)  
 - Use **error messages** per field instead of generic catch-all  
@@ -60,7 +60,7 @@ git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 
 ---
 
-## 🙋 Contributing
+## Contributing
 
 1. Fork the repo  
 2. Create a feature branch (`git checkout -b feature/MyFeature`)  
