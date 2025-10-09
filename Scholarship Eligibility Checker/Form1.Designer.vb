@@ -29,11 +29,11 @@ Partial Class Form1
         Me.communityHours = New System.Windows.Forms.Label()
         Me.letterGrade = New System.Windows.Forms.Label()
         Me.tier = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.gpaTbx = New System.Windows.Forms.TextBox()
+        Me.incomeTbx = New System.Windows.Forms.TextBox()
+        Me.communityHoursTbx = New System.Windows.Forms.TextBox()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnChecker = New System.Windows.Forms.Button()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -92,45 +92,45 @@ Partial Class Form1
         Me.tier.TabIndex = 5
         Me.tier.Text = "Scholarship Tier:"
         '
-        'TextBox1
+        'gpaTbx
         '
-        Me.TextBox1.Location = New System.Drawing.Point(910, 133)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(206, 22)
-        Me.TextBox1.TabIndex = 6
+        Me.gpaTbx.Location = New System.Drawing.Point(910, 133)
+        Me.gpaTbx.Name = "gpaTbx"
+        Me.gpaTbx.Size = New System.Drawing.Size(206, 22)
+        Me.gpaTbx.TabIndex = 6
         '
-        'TextBox2
+        'incomeTbx
         '
-        Me.TextBox2.Location = New System.Drawing.Point(910, 161)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(206, 22)
-        Me.TextBox2.TabIndex = 7
+        Me.incomeTbx.Location = New System.Drawing.Point(910, 161)
+        Me.incomeTbx.Name = "incomeTbx"
+        Me.incomeTbx.Size = New System.Drawing.Size(206, 22)
+        Me.incomeTbx.TabIndex = 7
         '
-        'TextBox3
+        'communityHoursTbx
         '
-        Me.TextBox3.Location = New System.Drawing.Point(910, 189)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(206, 22)
-        Me.TextBox3.TabIndex = 8
+        Me.communityHoursTbx.Location = New System.Drawing.Point(910, 189)
+        Me.communityHoursTbx.Name = "communityHoursTbx"
+        Me.communityHoursTbx.Size = New System.Drawing.Size(206, 22)
+        Me.communityHoursTbx.TabIndex = 8
         '
-        'Button1
+        'btnChecker
         '
-        Me.Button1.Location = New System.Drawing.Point(910, 239)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(150, 26)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Checker"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnChecker.Location = New System.Drawing.Point(933, 239)
+        Me.btnChecker.Name = "btnChecker"
+        Me.btnChecker.Size = New System.Drawing.Size(150, 26)
+        Me.btnChecker.TabIndex = 9
+        Me.btnChecker.Text = "Checker"
+        Me.btnChecker.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1849, 779)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnChecker)
+        Me.Controls.Add(Me.communityHoursTbx)
+        Me.Controls.Add(Me.incomeTbx)
+        Me.Controls.Add(Me.gpaTbx)
         Me.Controls.Add(Me.tier)
         Me.Controls.Add(Me.letterGrade)
         Me.Controls.Add(Me.communityHours)
@@ -151,9 +151,9 @@ Partial Class Form1
     Friend WithEvents communityHours As Label
     Friend WithEvents letterGrade As Label
     Friend WithEvents tier As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents gpaTbx As TextBox
+    Friend WithEvents incomeTbx As TextBox
+    Friend WithEvents communityHoursTbx As TextBox
     Friend WithEvents BindingSource1 As BindingSource
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnChecker As Button
 End Class
