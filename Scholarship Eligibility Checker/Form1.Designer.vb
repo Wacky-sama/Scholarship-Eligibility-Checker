@@ -41,7 +41,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(750, 49)
+        Me.Label1.Location = New System.Drawing.Point(589, 88)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(429, 32)
         Me.Label1.TabIndex = 0
@@ -50,83 +50,89 @@ Partial Class Form1
         'gpa
         '
         Me.gpa.AutoSize = True
-        Me.gpa.Location = New System.Drawing.Point(782, 139)
+        Me.gpa.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpa.Location = New System.Drawing.Point(609, 155)
         Me.gpa.Name = "gpa"
-        Me.gpa.Size = New System.Drawing.Size(35, 16)
+        Me.gpa.Size = New System.Drawing.Size(39, 18)
         Me.gpa.TabIndex = 1
         Me.gpa.Text = "GPA"
         '
         'income
         '
         Me.income.AutoSize = True
-        Me.income.Location = New System.Drawing.Point(782, 167)
+        Me.income.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.income.Location = New System.Drawing.Point(609, 203)
         Me.income.Name = "income"
-        Me.income.Size = New System.Drawing.Size(100, 16)
+        Me.income.Size = New System.Drawing.Size(113, 18)
         Me.income.TabIndex = 2
         Me.income.Text = "Monthly Income"
         '
         'communityHours
         '
         Me.communityHours.AutoSize = True
-        Me.communityHours.Location = New System.Drawing.Point(782, 195)
+        Me.communityHours.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.communityHours.Location = New System.Drawing.Point(609, 240)
         Me.communityHours.Name = "communityHours"
-        Me.communityHours.Size = New System.Drawing.Size(112, 16)
+        Me.communityHours.Size = New System.Drawing.Size(129, 18)
         Me.communityHours.TabIndex = 3
         Me.communityHours.Text = "Community Hours"
         '
         'letterGrade
         '
         Me.letterGrade.AutoSize = True
-        Me.letterGrade.Location = New System.Drawing.Point(782, 283)
+        Me.letterGrade.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.letterGrade.Location = New System.Drawing.Point(609, 361)
         Me.letterGrade.Name = "letterGrade"
-        Me.letterGrade.Size = New System.Drawing.Size(48, 16)
+        Me.letterGrade.Size = New System.Drawing.Size(53, 18)
         Me.letterGrade.TabIndex = 4
         Me.letterGrade.Text = "Grade:"
         '
         'tier
         '
         Me.tier.AutoSize = True
-        Me.tier.Location = New System.Drawing.Point(782, 309)
+        Me.tier.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tier.Location = New System.Drawing.Point(609, 399)
         Me.tier.Name = "tier"
-        Me.tier.Size = New System.Drawing.Size(108, 16)
+        Me.tier.Size = New System.Drawing.Size(119, 18)
         Me.tier.TabIndex = 5
         Me.tier.Text = "Scholarship Tier:"
         '
         'gpaTbx
         '
-        Me.gpaTbx.Location = New System.Drawing.Point(910, 133)
+        Me.gpaTbx.Location = New System.Drawing.Point(789, 152)
         Me.gpaTbx.Name = "gpaTbx"
-        Me.gpaTbx.Size = New System.Drawing.Size(206, 22)
+        Me.gpaTbx.Size = New System.Drawing.Size(206, 24)
         Me.gpaTbx.TabIndex = 6
         '
         'incomeTbx
         '
-        Me.incomeTbx.Location = New System.Drawing.Point(910, 161)
+        Me.incomeTbx.Location = New System.Drawing.Point(789, 194)
         Me.incomeTbx.Name = "incomeTbx"
-        Me.incomeTbx.Size = New System.Drawing.Size(206, 22)
+        Me.incomeTbx.Size = New System.Drawing.Size(206, 24)
         Me.incomeTbx.TabIndex = 7
         '
         'communityHoursTbx
         '
-        Me.communityHoursTbx.Location = New System.Drawing.Point(910, 189)
+        Me.communityHoursTbx.Location = New System.Drawing.Point(789, 234)
         Me.communityHoursTbx.Name = "communityHoursTbx"
-        Me.communityHoursTbx.Size = New System.Drawing.Size(206, 22)
+        Me.communityHoursTbx.Size = New System.Drawing.Size(206, 24)
         Me.communityHoursTbx.TabIndex = 8
         '
         'btnChecker
         '
-        Me.btnChecker.Location = New System.Drawing.Point(933, 239)
+        Me.btnChecker.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnChecker.Location = New System.Drawing.Point(829, 270)
         Me.btnChecker.Name = "btnChecker"
-        Me.btnChecker.Size = New System.Drawing.Size(150, 26)
+        Me.btnChecker.Size = New System.Drawing.Size(127, 50)
         Me.btnChecker.TabIndex = 9
         Me.btnChecker.Text = "Checker"
         Me.btnChecker.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1849, 779)
+        Me.ClientSize = New System.Drawing.Size(2582, 1107)
         Me.Controls.Add(Me.btnChecker)
         Me.Controls.Add(Me.communityHoursTbx)
         Me.Controls.Add(Me.incomeTbx)
@@ -137,6 +143,7 @@ Partial Class Form1
         Me.Controls.Add(Me.income)
         Me.Controls.Add(Me.gpa)
         Me.Controls.Add(Me.Label1)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
