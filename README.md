@@ -16,7 +16,7 @@ A simple Windows Forms (VB.NET) app that determines a student’s letter grade a
 ## 🚀 How to Run
 
 1. Clone the repo:
-   ```bash
+```bash
 git clone https://github.com/Wacky-sama/Scholarship-Eligibility-Checker.git
 ```
 
