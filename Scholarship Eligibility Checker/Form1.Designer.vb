@@ -41,7 +41,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(427, 45)
+        Me.Label1.Location = New System.Drawing.Point(750, 49)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(429, 32)
         Me.Label1.TabIndex = 0
@@ -50,7 +50,7 @@ Partial Class Form1
         'gpa
         '
         Me.gpa.AutoSize = True
-        Me.gpa.Location = New System.Drawing.Point(430, 147)
+        Me.gpa.Location = New System.Drawing.Point(782, 139)
         Me.gpa.Name = "gpa"
         Me.gpa.Size = New System.Drawing.Size(35, 16)
         Me.gpa.TabIndex = 1
@@ -59,7 +59,7 @@ Partial Class Form1
         'income
         '
         Me.income.AutoSize = True
-        Me.income.Location = New System.Drawing.Point(430, 175)
+        Me.income.Location = New System.Drawing.Point(782, 167)
         Me.income.Name = "income"
         Me.income.Size = New System.Drawing.Size(100, 16)
         Me.income.TabIndex = 2
@@ -68,7 +68,7 @@ Partial Class Form1
         'communityHours
         '
         Me.communityHours.AutoSize = True
-        Me.communityHours.Location = New System.Drawing.Point(430, 203)
+        Me.communityHours.Location = New System.Drawing.Point(782, 195)
         Me.communityHours.Name = "communityHours"
         Me.communityHours.Size = New System.Drawing.Size(112, 16)
         Me.communityHours.TabIndex = 3
@@ -77,7 +77,7 @@ Partial Class Form1
         'letterGrade
         '
         Me.letterGrade.AutoSize = True
-        Me.letterGrade.Location = New System.Drawing.Point(430, 298)
+        Me.letterGrade.Location = New System.Drawing.Point(782, 283)
         Me.letterGrade.Name = "letterGrade"
         Me.letterGrade.Size = New System.Drawing.Size(48, 16)
         Me.letterGrade.TabIndex = 4
@@ -86,7 +86,7 @@ Partial Class Form1
         'tier
         '
         Me.tier.AutoSize = True
-        Me.tier.Location = New System.Drawing.Point(430, 324)
+        Me.tier.Location = New System.Drawing.Point(782, 309)
         Me.tier.Name = "tier"
         Me.tier.Size = New System.Drawing.Size(108, 16)
         Me.tier.TabIndex = 5
@@ -94,28 +94,28 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(558, 141)
+        Me.TextBox1.Location = New System.Drawing.Point(910, 133)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(206, 22)
         Me.TextBox1.TabIndex = 6
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(558, 169)
+        Me.TextBox2.Location = New System.Drawing.Point(910, 161)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(206, 22)
         Me.TextBox2.TabIndex = 7
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(558, 197)
+        Me.TextBox3.Location = New System.Drawing.Point(910, 189)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(206, 22)
         Me.TextBox3.TabIndex = 8
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(586, 246)
+        Me.Button1.Location = New System.Drawing.Point(910, 239)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 26)
         Me.Button1.TabIndex = 9
@@ -126,7 +126,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1767, 779)
+        Me.ClientSize = New System.Drawing.Size(1849, 779)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
