@@ -4,15 +4,6 @@ A simple Windows Forms (VB.NET) app that determines a student’s letter grade a
 
 ---
 
-## Project Structure
-
-- `Scholarship Eligibility Checker.sln` — Solution file  
-- `Form1.vb` — Main form with logic for calculating grade & scholarship  
-- `Form1.Designer.vb` — UI layout (if using drag-n-drop designer)  
-- `.gitignore` / `.gitattributes` — Standard settings  
-
----
-
 ## How to Run
 
 1. Clone the repo:
